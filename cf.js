@@ -9,7 +9,8 @@ const { v4: uuidv4 } = require('uuid');
 const Cloudflare = require('cloudflare');
 const readline = require('readline');
 
-let cookieJAR = { asffghjklzxcvbnmqwertyuiop };
+let cookieJAR = 'asffghjklzxcvbnmqwertyuiop';
+
 
 async function getCookie(url) {
     const browser = await chromium.launch();
