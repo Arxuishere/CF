@@ -11,7 +11,7 @@ const yourLogo = `
 
 console.log(yourLogo);
 
-let cookieJAR = { asffghjklzxcvbnmqwertyuiop };
+let cookieJAR = 'asffghjklzxcvbnmqwertyuiop';
 
 async function getCookie(url) {
     const browser = await chromium.launch();
