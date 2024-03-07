@@ -24,7 +24,7 @@ if (process.argv.length < 7){
                                                                                              
                                                                                              
 
-  Usage: node SKYNET-TLS.js [TARGET] [TIME] [REQUEST] [THREAD] [PROXY FILE]`);
+  Usage: node ax.js [TARGET] [TIME] [REQUEST] [THREAD] [PROXY FILE]`);
     process.exit();
 }
 
